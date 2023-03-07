@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+}
+
+a {
+    text-decoration: none;
+    color: #7D7D7D;
+}
+
+ul {
+    list-style: none;
+}
+
+/* section header */
+header {
+    width: 100%;
+}
+
+.nav {
+    padding: 70px 28%;
+}
+
+.nav .nav-list {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav .nav-list .nav-list-item {
+    display: inline-flex;
+}
+
+.nav-list-link.active {
+    color: #03A9F4;
+}
+
+/* section main */
+main {
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.main-content-item {
+    width: calc(50% - 40px);
+    margin-bottom: 32px;
+}
+
+.main-content-item img {
+    margin-bottom: 32px;
+}
+
+.main-content-item .category {
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+}
+
+.main-content-item h2 {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* section button */
+.load-more {
+    margin: 10px auto;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: transparent;
+    line-height: 19px;
+    color: #626262;
+}
+
