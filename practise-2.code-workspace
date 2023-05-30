@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "practise-2",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../../img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practise-2"
+	}
+}
